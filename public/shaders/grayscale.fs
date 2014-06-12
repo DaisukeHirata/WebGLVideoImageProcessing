@@ -8,6 +8,6 @@ uniform sampler2D texture;
 uniform float arg;
 void main(void) {
   vec4 color = texture2D(texture, vTexCoord);
-  float y = dot(color.rgb, vec3(0.299, 0.587, 0.114));
+  float y = dot(color.rgb, vec3(0.2126, 0.7152, 0.0722));
   gl_FragColor = vec4(mix(color.rgb, vec3(y), arg), color.a);
 }
