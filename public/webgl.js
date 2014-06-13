@@ -79,7 +79,6 @@ WebGL.prototype.createPrograms = function (drawFrame) {
                  'shaders/monoedge.fs',
                  'shaders/hardrockcafe.fs',
                  'shaders/shotbarneon.fs',
-                 'shaders/cartoon.fs',
                  'shaders/lego.fs',
                  'shaders/brazil.fs',
                  'shaders/croquis.fs',
