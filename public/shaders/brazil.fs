@@ -25,7 +25,7 @@ void main(void) {
 
     if      (sum < 0.25) color = vec4(black, color.a);
     else if (sum < 0.75) color = vec4(brown,   color.a);
-    else if (sum < 1.28) color = vec4(green, color.a);
+    else if (sum < 1.21) color = vec4(green, color.a);
     else if (sum < 2.30) color = vec4(yellow,  color.a);
     else                 color = vec4(white,  color.a);
     gl_FragColor = color;

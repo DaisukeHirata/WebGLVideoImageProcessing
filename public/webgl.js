@@ -87,6 +87,8 @@ WebGL.prototype.createPrograms = function (drawFrame) {
                  'shaders/twirl.fs',
                  'shaders/ripple.fs',
                  'shaders/opticscmpn.fs',
+                 'shaders/hengao.fs',
+                 'shaders/hengaoposter.fs',
                  ],
       numShaders = shaders.length,
       numComplete = 0,
